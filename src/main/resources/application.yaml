@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: 2580
+    username: root
+    url:  jdbc:mysql://localhost:3306/fly-fishing-setup
+
+logging:
+  level:
+    root: warn
+    '[com.simply]': debug
